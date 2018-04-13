@@ -1,0 +1,39 @@
+﻿@model IEnumerable<MongoDBInDotnetCore.Models.TeacherRegistration>
+
+@{ ViewBag.Title = "Teacher Registrations";}
+
+<h2>@ViewBag.Title</h2>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>School ID</th>
+        <th>Delete</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <a href="Post/Edit/@item.Id">
+                    @item.Id
+                </a>
+            </td>
+            <td>
+                <a href="Post/Edit/@item.Id">
+                    @item.TeacherName
+                </a>
+            </td>
+            <td>
+                <a href="Post/Edit/@item.Id">
+                    @item.SchoolId
+                </a>
+            </td>
+            <td>
+                <a href="Post/Delete/@item.Id">delete</a>
+            </td>
+        </tr>
+    }
+</table>
+<a asp-area="" asp-controller="TeacherRegistration" asp-action="Add">Add</a>

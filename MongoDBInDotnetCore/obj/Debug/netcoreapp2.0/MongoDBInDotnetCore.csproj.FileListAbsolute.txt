@@ -1,0 +1,11 @@
+c:\users\abhagasra\source\repos\MongoDBInDotnetCore\MongoDBInDotnetCore\bin\Debug\netcoreapp2.0\MongoDBInDotnetCore.deps.json
+c:\users\abhagasra\source\repos\MongoDBInDotnetCore\MongoDBInDotnetCore\bin\Debug\netcoreapp2.0\MongoDBInDotnetCore.runtimeconfig.json
+c:\users\abhagasra\source\repos\MongoDBInDotnetCore\MongoDBInDotnetCore\bin\Debug\netcoreapp2.0\MongoDBInDotnetCore.runtimeconfig.dev.json
+c:\users\abhagasra\source\repos\MongoDBInDotnetCore\MongoDBInDotnetCore\bin\Debug\netcoreapp2.0\MongoDBInDotnetCore.dll
+c:\users\abhagasra\source\repos\MongoDBInDotnetCore\MongoDBInDotnetCore\obj\Debug\netcoreapp2.0\MongoDBInDotnetCore.csprojResolveAssemblyReference.cache
+c:\users\abhagasra\source\repos\MongoDBInDotnetCore\MongoDBInDotnetCore\obj\Debug\netcoreapp2.0\MongoDBInDotnetCore.csproj.CoreCompileInputs.cache
+c:\users\abhagasra\source\repos\MongoDBInDotnetCore\MongoDBInDotnetCore\obj\Debug\netcoreapp2.0\MongoDBInDotnetCore.AssemblyInfoInputs.cache
+c:\users\abhagasra\source\repos\MongoDBInDotnetCore\MongoDBInDotnetCore\obj\Debug\netcoreapp2.0\MongoDBInDotnetCore.AssemblyInfo.cs
+c:\users\abhagasra\source\repos\MongoDBInDotnetCore\MongoDBInDotnetCore\bin\Debug\netcoreapp2.0\MongoDBInDotnetCore.pdb
+c:\users\abhagasra\source\repos\MongoDBInDotnetCore\MongoDBInDotnetCore\obj\Debug\netcoreapp2.0\MongoDBInDotnetCore.dll
+c:\users\abhagasra\source\repos\MongoDBInDotnetCore\MongoDBInDotnetCore\obj\Debug\netcoreapp2.0\MongoDBInDotnetCore.pdb

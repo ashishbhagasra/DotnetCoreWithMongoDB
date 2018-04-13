@@ -1,0 +1,127 @@
+﻿@model MongoDBInDotnetCore.Models.SchoolRegistration
+
+@{ ViewBag.Title = "Edit Post";}
+
+<h2>@ViewBag.Title</h2>
+
+<form asp-controller="Post" asp-action="Edit" method="post" class="form-horizontal" role="form">
+    <div class="form-horizontal">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Id" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Id" class="form-control" readonly="readonly" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="SchoolCode" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="SchoolCode" class="form-control" />
+                <span asp-validation-for="SchoolCode" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="NumberOfStudents" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="NumberOfStudents" class="form-control" />
+                <span asp-validation-for="NumberOfStudents" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="AddressLine1" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="AddressLine1" class="form-control" />
+                <span asp-validation-for="AddressLine1" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="AddressLine2" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="AddressLine2" class="form-control" />
+                <span asp-validation-for="AddressLine2" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="AddressLine3" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="AddressLine3" class="form-control" />
+                <span asp-validation-for="AddressLine3" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="City" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="State" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="State" class="form-control" />
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="PIN" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="PIN" class="form-control" />
+                <span asp-validation-for="PIN" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="EmailId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="EmailId" class="form-control" />
+                <span asp-validation-for="EmailId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ContactNumber" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ContactNumber" class="form-control" />
+                <span asp-validation-for="ContactNumber" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="NameOfSPOC" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="NameOfSPOC" class="form-control" />
+                <span asp-validation-for="NameOfSPOC" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="SPOCEmailId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="SPOCEmailId" class="form-control" />
+                <span asp-validation-for="SPOCEmailId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="SPOCContactNumber" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="SPOCContactNumber" class="form-control" />
+                <span asp-validation-for="SPOCContactNumber" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="AdminUserName" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="AdminUserName" class="form-control" />
+                <span asp-validation-for="AdminUserName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="AdminPassword" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="AdminPassword" class="form-control" />
+                <span asp-validation-for="AdminPassword" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Update" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>

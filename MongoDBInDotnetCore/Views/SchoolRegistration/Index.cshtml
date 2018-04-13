@@ -1,0 +1,38 @@
+﻿@model IEnumerable<MongoDBInDotnetCore.Models.SchoolRegistration>
+
+@{ ViewBag.Title = "All School Registrations";}
+
+<h2>@ViewBag.Title</h2>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Code</th>
+        <th>Address</th>
+        <th>Delete</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <a href="Post/Edit/@item.Id">
+                    @item.Id
+                </a>
+            </td>
+            <td>
+                <a href="Post/Edit/@item.Id">
+                    @item.SchoolCode
+                </a>
+            </td>
+            <td>
+                <a href="Post/Edit/@item.Id">
+                    @item.AddressLine1
+                </a>
+            </td>
+            <td>
+                <a href="Post/Delete/@item.Id">delete</a>
+            </td>
+        </tr>
+    }
+</table>

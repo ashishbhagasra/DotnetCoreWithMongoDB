@@ -1,0 +1,59 @@
+﻿@model MongoDBInDotnetCore.Models.TeacherRegistration
+
+@{ ViewBag.Title = "Edit Post";}
+
+<h2>@ViewBag.Title</h2>
+
+<form asp-controller="SchoolRegistration" asp-action="Add" method="post" class="form-horizontal" role="form">
+    <div class="form-horizontal">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="TeacherName" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="TeacherName" class="form-control" />
+                <span asp-validation-for="TeacherName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="IsClassTeacher" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="IsClassTeacher" class="form-control" />
+                <span asp-validation-for="IsClassTeacher" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="IsHOD" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="IsHOD" class="form-control" />
+                <span asp-validation-for="IsHOD" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="UserName" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Password" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="SchoolId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="SchoolId" class="form-control" />
+                <span asp-validation-for="SchoolId" class="text-danger"></span>
+            </div>
+        </div>
+       
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Add" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
